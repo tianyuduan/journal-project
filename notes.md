@@ -8,7 +8,7 @@ While conventional relational databases have a typical schema design based on co
 
 MongoDB is known for being flexible and easy to scale.
 
-Express: A back-end web application framework, like "Ruby on Rails or Django"
+Express: A back-end web application framework, like "Ruby on Rails , PHP or Django"
 
 Express is web application framework for Node.js.
 
@@ -25,3 +25,19 @@ Node.js: A cross-platform JavaScript runtime environment
 Node.js was initially built for Google Chrome, and later open-sourced by Google in 2008. It is built on Chrome’s V8 JavaScript engine. It’s designed to build scalable network applications, and can execute JavaScript code outside of a browser.
 
 Node.js works without an enclosing HTML page, instead using its own module system based on CommonJS, to put together multiple JavaScript files.
+
+
+
+Difference between: The parenthesis are returning a single value, the curly braces are executing multiple lines of code.
+
+const foo = (params) => (
+    <span>
+        <p>Content</p>
+    </span>
+);
+vs.
+
+const handleBar = (e) => {
+    e.preventDefault();
+    dispatch('logout');
+};
