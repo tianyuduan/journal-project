@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://tianyu123:tianyu123@lifegoals-awnnz.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtToken": "mysecret:)" 
+  "mongoURI": "mongodb+srv://tianyu123:tianyu123@lifegoals-hfovm.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtToken": "mysecret:)"
 }

@@ -6,7 +6,7 @@ const connectDB = require('./config/db.js');
 // connect Database
 connectDB();
 
-// init middleware
+// init middleware==
 app.use(express.json({ extended: false }));
 
 //define routes

@@ -37,7 +37,7 @@ const styles = theme => ({
 
 function AppAppBar(props) {
   const { classes } = props;
-
+  console.log(classes);
   return (
     <div>
       <AppBar position="fixed">
@@ -58,7 +58,7 @@ function AppAppBar(props) {
               variant="h6"
               underline="none"
               className={classes.rightLink}
-              href="/"
+              href="/login"
             >
               {'Sign In'}
             </Link>
@@ -66,9 +66,9 @@ function AppAppBar(props) {
               variant="h6"
               underline="none"
               className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/"
+              href="/register"
             >
-              {'Sign Up'}
+              {'Register'}
             </Link>
           </div>
         </Toolbar>
