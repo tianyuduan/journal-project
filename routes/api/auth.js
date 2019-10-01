@@ -43,7 +43,7 @@ async (req, res) => {
    try {
    // see if user exits
    let user = await User.findOne({ email: email });
-   // user exists
+   // user doesnt exists
    if ( !user ) {
      res.status(400).json({ errors: [ { msg: 'Invalid Credentials '}] });
    }
@@ -66,7 +66,7 @@ async (req, res) => {
    }
  );
 
- res.send('User registered')
+ res.send('User found')
    } catch(err) {
     console.log(err.message);
     res.status(500).send('server error');

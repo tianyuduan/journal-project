@@ -70,7 +70,7 @@ const Register = () => {
   return (
     <React.Fragment>
     <Typography variant="h3" gutterBottom marked="center" align="center">
-      Sign Up
+      Register
     </Typography>
     <Typography variant="body2" align="center">
       <Link href="/signin" underline="always">

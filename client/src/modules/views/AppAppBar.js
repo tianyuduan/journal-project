@@ -58,6 +58,15 @@ function AppAppBar(props) {
               variant="h6"
               underline="none"
               className={classes.rightLink}
+              href="/demo"
+            >
+              {'Demo'}
+            </Link>
+            <Link
+              color="inherit"
+              variant="h6"
+              underline="none"
+              className={classes.rightLink}
               href="/login"
             >
               {'Sign In'}

@@ -10,19 +10,25 @@ import withRoot from './modules/withRoot';
 import ProductHero from './modules/views/ProductHero';
 
 
+//redux
+import { Provider } from 'react-redux';
+import store from './store';
+
 const App = () => (
-  <Router>
-    <Fragment>
-      <AppAppBar />
-      <Route exact path='/'component={ProductHero}/>
-      <section className='container'>
-        <Switch>
-          <Route exact path='/register' component={Register}/>
-          <Route exact path='/login' component={Login}/>
-        </Switch>
-      </section>
-    </Fragment>
-  </Router>
+  <Provider store={store}>
+    <Router>
+      <Fragment>
+        <AppAppBar />
+        <Route exact path='/'component={ProductHero}/>
+        <section className='container'>
+          <Switch>
+            <Route exact path='/register' component={Register}/>
+            <Route exact path='/login' component={Login}/>
+          </Switch>
+        </section>
+      </Fragment>
+    </Router>
+  </Provider>
 )
 
 export default withRoot(App);

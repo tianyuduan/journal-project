@@ -47,3 +47,6 @@ SEARCH
 sudo lsof -i tcp:5000
 DESTORY productHeroWonder.png
 kill -9 <PID>
+
+
+reducers, store, actions, dispatcher

@@ -4,7 +4,7 @@ What is SCRAM authentication?
 
 What is nodemon ?
 
-when to use async?
+when to use async await?
 
 what is middleware and what does it do?
 
