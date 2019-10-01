@@ -29,3 +29,4 @@
 3. Financial add on / Stock + Bank API
 4. News add on / Google News API
 5. Deals/ Slickdeals/Amazon API
+6. Profile into chat feature
