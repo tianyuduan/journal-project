@@ -10,13 +10,13 @@
 
 
 # Minimal Viability Product
-1. Has a Dashboard that hosts all the features
+1. Has a dashboard that hosts all the features
 2. Has weekly into daily journal entry function ( breaks down goals ), weekly check-ins
 3. Has a calendar ( google API ) to track all your todos
 4. Has a bookmarks Tab ( for messenger, facebook, etc )
 5. Sticky: quick todo List
-6. motivation quote generator
-7. birthday contacts tracking feature - linked to calendar
+6. Motivation quote generator
+7. Birthday contacts tracking feature - linked to calendar
 
 8. Slick homepage and dashboard
 9. Introduction on Sign-Up ( Modal forms, how to use and developing & setting up goals)
@@ -24,5 +24,8 @@
 
 
 ### Future updates
-Dietary add on
-Fitness exercises add on
+1. Dietary add on /either create or integrate feature
+2. Fitness exercises add on /either create or integrate feature
+3. Financial add on / Stock + Bank API
+4. News add on / Google News API
+5. Deals/ Slickdeals/Amazon API
